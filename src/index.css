@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  display: block;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* -------------------------------------------- */
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0;
+}
+nav .menu ul {
+  display: flex;
+  column-gap: 30px;
+}
+nav .menu ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #626262;
+}
+nav .menu ul li .active {
+  color: #243f93;
+}
+.btn {
+  background: #243f93;
+  border-radius: 5px;
+  padding: 15px 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  outline: none;
+  border: none;
+}
+/* ============================================== */
+
+#banner__part img {
+  margin-bottom: 100px;
+}
+/* ============================================= */
+
+#activities__part {
+  background: rgba(36, 63, 147, 0.2);
+  text-align: center;
+}
+
+#activities__part .container {
+  padding-bottom: 100px;
+}
+#activities__part .heading h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #243f93;
+  width: 424px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#activities__part .heading p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 645px;
+  color: #626262;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+}
+#activities__part .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#activities__part .card-details {
+  background-color: #ffffff;
+  width: 424px;
+  padding: 20px 28px 24px;
+  border-radius: 0 0 25px 25px;
+  text-align: left;
+}
+#activities__part .card-details p > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #717171;
+  padding-bottom: 30px;
+}
+#activities__part .card-details h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #243f93;
+  width: 336px;
+}
+#activities__part .card-details p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #717171;
+  width: 372px;
+  padding: 20px 0;
+}
+#activities__part .card-details a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #243f93;
+}
+#activities__part button {
+  margin-top: 50px;
+}
+/* ============================================ */
+
+#gallery__part .container {
+  padding: 100px 0;
+  text-align: center;
+}
+#gallery__part .container h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #243f93;
+  width: 178px;
+  margin: 0 auto;
+}
+#gallery__part .container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #626262;
+  padding: 20px 0 60px;
+  width: 645px;
+  margin: 0 auto;
+}
+#gallery__part .container .gallery__image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/* ================================================= */
+
+#contact__part {
+  background: #243f93;
+  padding: 138px 0 132px;
+}
+#contact__part .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact__part .container .logo__part p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f3f3f3;
+  width: 351px;
+  padding: 16px 0 24px;
+}
+#contact__part .container .logo__part a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+#contact__part .container .links__part h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+#contact__part {
+  padding-bottom: 132px;
+}
+
+#contact__part .container .links__part .footer__link {
+  padding-top: 16px;
+  text-align: center;
+}
+#contact__part .container .links__part ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+#contact__part .container .location__part {
+  width: 419px;
+}
+
+#contact__part .container .location__part p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width: 250px;
+}
+#contact__part .container .location__part p i {
+  padding: 0 20px 20px 0;
+}
+#contact__part .container .location__part h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  padding: 43px 0 20px;
+}
+#contact__part .container .location__part input {
+  padding: 15px 57px 12px 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 259px;
+  border: 0.5px solid #7491ed;
+  background-color: #243f93;
+  border-radius: 5px;
+  margin-right: 12px;
+}
+
+#contact__part .container .location__part button {
+  background: #ed1c24;
+  padding: 11px 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+/* ========================================= */
+footer p {
+  text-align: center;
+  padding: 30px 0;
+}
