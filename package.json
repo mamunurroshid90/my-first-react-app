@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homePage": "https://github.com/mamunurroshid90/my-first-react-app",
+    "homePage": "https://github.com/mamunurroshid90.io/my-first-react-app",
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d build",
     "dev": "vite",
